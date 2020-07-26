@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!--
+          
+      Multiple Camera Test:
+        This is just a test to see how to get
+        two camera views from the same scene
+
+    -->
+    <title>Rendering with Two Cameras</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    
+
+    <script src="../three.min.js"></script>
+    <script src="../OrbitControls.js"></script>
+    <script src="app.js"></script>  
+  </head>
+
+  <body onload="init()">
+
+    <h1 class="title">Rendering with Two Cameras</h1>
+
+    <div class="scene-container" id="scene-container1">
+      <!-- This div will hold what camera 1 sees-->
+    </div>
+
+    <div class="scene-container" id ="scene-container2" style="right:0em">
+      <!-- This div will hold what camera 2 sees-->
+    </div>
+
+  </body>
+
+</html>
